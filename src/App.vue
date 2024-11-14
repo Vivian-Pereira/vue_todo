@@ -3,8 +3,9 @@
     <!-- Barra de navegación con enlaces a diferentes rutas -->
     <nav>
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/addtask">Agregar Tarea</router-link> 
+      <router-link to="/addtask">Agregar Tarea</router-link> |
+      <router-link to="/tasklist">Lista de Tareas</router-link> |
+      <router-link to="/combinedview">Vista combinada</router-link> |
     </nav>
     <!-- Aquí se cargará el componente correspondiente a la ruta seleccionada -->
     <router-view/>
